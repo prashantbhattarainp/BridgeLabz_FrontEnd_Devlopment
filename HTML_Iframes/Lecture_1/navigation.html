@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frameset Layout Example</title>
+</head>
+<!--
+    Note: <frameset> replaces <body> when using frames.
+    The page is divided into two horizontal sections: top and bottom.
+-->
+<frameset rows="100px,*">
+    <!-- Top frame: Navigation -->
+    <frame src="navigation.html" name="navFrame" title="Navigation Links">
+
+    <!-- Bottom frame: Welcome message -->
+    <frame src="welcome.html" name="contentFrame" title="Main Content">
+</frameset>
+
+<!-- 
+    Files required:
+    1. navigation.html → contains links like Home, About, Contact
+    2. welcome.html → contains the message "Welcome to My Website"
+-->
+</html>

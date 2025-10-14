@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with iframe</title>
+</head>
+<body>
+    <h1>Submit Your Text</h1>
+
+    <!-- Form -->
+    <form action="result.html" method="get" target="resultFrame">
+        <label for="textInput">Enter Text:</label>
+        <input type="text" id="textInput" name="textInput" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <!-- iframe to display result.html -->
+    <iframe name="resultFrame" width="100%" height="100px" title="Result Frame"></iframe>
+
+    <!-- 
+        Notes:
+        - 'target="resultFrame"' loads the form submission inside the iframe.
+        - This approach allows the result to display without leaving the main page.
+    -->
+</body>
+</html>
