@@ -1,0 +1,85 @@
+/* ===== Base Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===== Header ===== */
+.header {
+  background-color: #0b3d91;
+  padding: 1rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ffecb3;
+}
+
+/* ===== Main Section ===== */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.box {
+  background-color: #fff;
+  flex: 1;
+  min-width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.box:hover {
+  transform: rotate(2deg);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: #0b3d91;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
