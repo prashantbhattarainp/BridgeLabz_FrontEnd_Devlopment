@@ -1,0 +1,43 @@
+parent1{
+    background-color: white;
+    border: 2px solid black;
+    height: 900px ;
+    width: 1000px;  
+}
+.navbar{
+    background-color: rgb(247, 240, 240);
+    border: 2px solid black;
+    height: 200px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.child1{
+    background-color: rgb(245, 179, 181);
+    border: 2px black;
+    height: 100px;
+    width: 100px;
+}
+.child2{
+    background-color: wheat;
+    border: 2px black;
+    height: 50px;
+    width: 200px;
+}
+
+.child3{
+    background-color: wheat;
+    border: 2px black;
+    height: 50px;
+    width: 200px;
+}
+
+.child4{
+    background-color: wheat;
+    border: 2px black;
+    height: 50px;
+    width: 200px;
+}
+
