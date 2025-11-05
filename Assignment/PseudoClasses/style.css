@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+a {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  background: lightgray;
+  color: black;
+}
+a:hover {
+  background: steelblue;
+  color: white;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 14px;
+  background: lightgreen;
+  border: none;
+  cursor: pointer;
+}
+button:active {
+  background: green;
+  color: white;
+}
+
+input {
+  padding: 8px;
+  margin: 10px;
+}
+input:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li:nth-child(even) {
+  background: lightyellow;
+}

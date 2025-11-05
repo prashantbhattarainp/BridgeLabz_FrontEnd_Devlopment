@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  background-color: lightcoral;
+  color: white;
+}
+
+.border-box {
+  box-sizing: border-box;
+  background-color: lightseagreen;
+}
+
+.info {
+  margin-top: 20px;
+}

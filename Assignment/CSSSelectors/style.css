@@ -1,0 +1,30 @@
+/* Element selector */
+p {
+  color: darkblue;
+}
+
+/* Class selector */
+.highlight {
+  background-color: lightyellow;
+}
+
+/* ID selector */
+#unique {
+  color: green;
+  font-weight: bold;
+}
+
+/* Attribute selector */
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+
+/* Combinators */
+ul > li {
+  color: purple;
+}
+
+.container p + p {
+  color: orange;
+}
