@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.box {
+    width: 200px;
+    margin: 40px auto;
+    border: 5px solid #333;
+    padding: 20px;
+    background-color: lightblue;
+    box-sizing: content-box;
+}
+
+.box:hover {
+    box-sizing: border-box;
+    background-color: lightgreen;
+    transition: all 0.3s ease;
+}

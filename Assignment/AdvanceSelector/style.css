@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Attribute selectors */
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+a[href^="https"] {
+    color: green;
+}
+
+/* Pseudo-classes */
+li:nth-child(odd) {
+    background-color: #d9f9d9;
+}
+a:hover {
+    text-decoration: underline;
+}
+input:focus {
+    border-color: red;
+}
+
+/* Pseudo-elements */
+.desc::before {
+    content: "★ ";
+    color: gold;
+}
+.desc::after {
+    content: " ★";
+    color: gold;
+}
+
+/* Combinators */
+.desc + .next {
+    color: blue;
+}
+.next ~ .sibling {
+    color: purple;
+}
+div > p {
+    font-weight: bold;
+}
+div p {
+    margin-bottom: 10px;
+}
