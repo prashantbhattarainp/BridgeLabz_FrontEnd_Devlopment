@@ -3,7 +3,7 @@ Web Development Learning Journal
 Welcome to my Web Development Learning Journey.
 This repository contains my daily learning progress, tasks, and reflections as I explore the world of web development — from HTML to CSS and beyond.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Day 1 — Introduction to Web Development
@@ -27,7 +27,7 @@ What’s Next
 Next, I will learn about HTML block and inline elements, attributes, headings, paragraphs, tables, dropdowns, quotations, lists, blocks, and layout in detail.
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Day 2 — Deep Dive into HTML Elements
@@ -49,7 +49,7 @@ What’s Next
 Next, I will begin CSS to learn how to style web pages and improve the look and feel of HTML elements.
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Day 3 — Introduction to CSS
@@ -72,7 +72,7 @@ What’s Next
 Next, I will learn about Flexbox and Grid for advanced layouts and responsive designs.
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Day 4 — Flexbox, Grid and Advanced CSS
@@ -97,7 +97,7 @@ Next, I will explore responsive design techniques and start learning about CSS m
 
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Day 5 — CSS Pseudo-Classes, Transitions and Animations
@@ -120,7 +120,7 @@ What’s Next
 Next, I will begin responsive CSS, learning about filters, responsive web design principles, and media queries to make pages adaptable to various screen sizes.
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Day 6 — Responsive Web Design and Media Queries
@@ -143,7 +143,7 @@ What’s Next
 Next, I will start with Bootstrap, where I will learn to use prebuilt components and responsive utilities to design modern web layouts efficiently.
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Day 7 — Introduction to Bootstrap Framework
@@ -165,3 +165,5 @@ Design a responsive portfolio webpage using Bootstrap, implementing grids, image
 What’s Next
 
 Next, I will revise CSS and explore more Bootstrap components such as carousel, progress bar, and other utilities to enhance web design skills.
+
+------------------------------------------------------------------------------------------------------------------------------------------
