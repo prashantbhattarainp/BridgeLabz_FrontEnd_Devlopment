@@ -1,0 +1,43 @@
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: blueviolet;
+    margin: 0% auto;
+    position: relative;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgb(215, 96, 45);
+    box-sizing: border-box;
+    position: relative;
+    left: 0% auto;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 6px solid white;
+    box-sizing: border-box;
+    position: relative; /*Take Size according to Box Size*/
+    left: 200px;
+    bottom: 200px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 6px solid greenyellow;
+    box-sizing: border-box;
+    position: absolute;   /*Take Size according to Screen Size*/
+    left: 400px;
+    bottom: 400px;
+}
+/* .box3{
+    width: 200px;
+    height: 200px;
+    border: 6px solid greenyellow;
+    box-sizing: border-box;
+    position: fixed;   content upar se jayega or ye box3 fix rahega 
+    left: 400px;
+    bottom: 400px;
+} */

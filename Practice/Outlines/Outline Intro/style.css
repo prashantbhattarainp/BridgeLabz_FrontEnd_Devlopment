@@ -1,0 +1,5 @@
+p{
+    border: 2px solid red;
+    outline: 15px solid green;
+    outline-offset: 5px;
+}

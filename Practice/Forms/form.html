@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Forms</title>
+</head>
+<body>
+    <form>
+    <table border="1" cellpadding="8" style="margin-top: 15%; margin-left: 25%;">
+
+            <!-- 1st Row -->
+        <tr>
+            <td colspan="4" style="text-align: center;">Registration Form</td>
+        </tr>
+            <!-- 2nd Row -->
+        <tr>
+            <td>Student</td>
+            <td>
+                <input type="text" placeholder="First Name" required>
+            </td>
+            <td>
+                <input type="text" placeholder="Middle Name" required>
+            </td>
+            <td>
+                <input type="text" placeholder="Last Name" required>
+            </td>
+        </tr>
+            <!-- 3rd Row -->
+        <tr>
+            <td>Father Name</td>
+            <td>
+                <input type="text" placeholder="Father Name" required>
+            </td>
+            <td>Mother Name</td>
+            <td>
+                <input type="text" placeholder="Mother Name" required>
+            </td>
+        </tr>
+            <!-- 4th Row -->
+        <tr>
+            <td>Date of Birth</td>
+            <td>
+                <input type="date"/>
+            </td>
+            <td>Gender</td>
+            <td>
+                <label for="f1">Male</label>
+                <input type="radio" name="gender" id="f1" required>
+
+                <label for="f2">Female</label>
+                <input type="radio" name="gender" id="f2" required>
+            </td>
+        </tr>
+            <!-- 5th Row -->
+             <tr>
+                <td>City</td>
+                <td>
+                    <select>
+                        <option>Select One option</option>
+                        <option>Jhansi</option>
+                        <option>Delhi</option>
+                    </select>
+                </td>
+                <td>Signature</td>
+                <td>
+                    <input type="file">
+                </td>
+             </tr>
+
+            <!-- 6th Row -->
+             <tr>
+                <td></td>
+                <td colspan="3" style="text-align: center;">
+                    <button>Submit</button>
+                </td>
+             </tr>
+    </table>
+    </form>
+</body>
+</html>

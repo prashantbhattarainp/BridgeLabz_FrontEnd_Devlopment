@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* .A:visited{
+    color: yellow;
+} */
+
+button{
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+}
+button:active{
+    transform: scale(3.5);
+    transition: 3s ease-out;
+}
