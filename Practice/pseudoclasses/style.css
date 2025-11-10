@@ -1,0 +1,126 @@
+.main{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    visibility: hidden;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    visibility: hidden;
+}
+
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+
+}
+
+
+.container:hover .box1{
+    transition-duration: 5s;
+    transform: translate(-100px,-100px) rotate(360deg) scale(0.90);
+    transition: all 2s ease out;
+    background-color: brown;
+}
+
+
+.container:hover .box2{
+    transition-duration: 5s;
+    transition: all 2s ease out;
+    transform: translate(100px,-100px)rotate(360deg) scale(0.90);
+    visibility: visible;
+}
+
+
+.container:hover .box3{
+    transition-duration: 5s;
+    transform: translate(-100px,100px) rotate(360deg) scale(0.90);
+    transition: all 2s ease out;
+    background-color: khaki;
+    visibility: visible;
+
+}
+.container:hover .box4{
+    transition-duration: 5s;
+    transform: translate(100px,100px) rotate(360deg) scale(0.90);
+    transition: all 2s ease in;
+    background-color: crimson; 
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subheading{
+    display: flex;
+    justify-content:first baseline;
+}
+
+.button1,.button2{
+    padding: 10px 10px;
+    height: 60px;
+    width: 60px;
+    color: aliceblue;
+    border-radius:5px;
+    cursor: pointer;
+}
+.button1{
+        background-color: red;
+    border-color: blue;
+}
+.button2{
+    background-color: green;
+    border-color: black;
+}
+
+
+.button1:active{
+    transform:scaleY(0.91)
+}
+
+.tooltip{
+    cursor: pointer;
+    
+}
+.tooltiptext{
+    visibility: hidden;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
