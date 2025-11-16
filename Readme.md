@@ -167,3 +167,118 @@ What’s Next
 Next, I will revise CSS and explore more Bootstrap components such as carousel, progress bar, and other utilities to enhance web design skills.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Day 8 — Introduction to JavaScript Basics
+
+Date: 07/11/2025
+Topic: JavaScript Types, Operators, Logic & Control Flow
+
+What I Learned
+
+Today, I was introduced to the fundamentals of JavaScript as a programming language. I explored various concepts essential for writing basic scripts:
+
+JavaScript data types such as number, string, boolean, undefined, null, and object
+
+Arithmetic, assignment, and comparison operators
+
+Logical operators and how they affect decision-making in programs
+
+Math functions for performing numerical operations
+
+Control structures including if-else, switch, and conditional logic
+
+How JavaScript evaluates expressions and executes code flow
+
+These concepts helped build the foundation needed for interacting with the browser and solving logical problems.
+
+Task for the Day
+
+Write simple JavaScript programs demonstrating:
+
+Basic arithmetic operations
+
+Logical comparisons
+
+If–else and switch statements
+
+A small program using Math methods (like Math.floor, Math.random, etc.)
+
+What’s Next
+
+Next, I will learn more about JavaScript operations, including Scope, Events, Strings, Arrays, Booleans, and Conditions.
+------------------------------------------------------------------------------------------------------------------------------------------
+Day 9 — JavaScript Scope, Events, Strings & Arrays
+
+Date: 08/11/2025
+Topic: Scope, Events, Strings, Math, Arrays & Conditions
+
+What I Learned
+
+Today’s session helped me understand how JavaScript manages data, interacts with users, and manipulates text and arrays:
+
+Scope types: global scope, local/function scope, and block scope
+
+Event handling using onclick, onchange, and other event listeners
+
+String manipulation using built-in methods such as slice(), substring(), toUpperCase()
+
+Array operations like push, pop, shift, unshift, join, and iteration
+
+Boolean values and comparison logic
+
+Practical use of conditions to make programs interactive
+
+These topics strengthened my understanding of how JavaScript structures, manipulates, and responds to data.
+
+Task for the Day
+
+Create:
+
+A simple form with event handling
+
+A string manipulation program (e.g., reversing a string or counting characters)
+
+An array-based project (e.g., managing a list of items)
+
+What’s Next
+
+Next, I will dive into JavaScript ES features, including switch, loops, functions, and arrow functions.
+------------------------------------------------------------------------------------------------------------------------------------------
+Day 10 — JavaScript ES Features & DOM Manipulation
+
+Date: 09/11/2025
+Topic: DOM, Functions, Arrow Functions & Hoisting
+
+What I Learned
+
+Today, I explored modern JavaScript features and interacted with the Document Object Model (DOM):
+
+ES6 features including arrow functions and template literals
+
+Function declarations, expressions, and how hoisting works in JavaScript
+
+DOM manipulation using getElementById, querySelector, and events
+
+Creating and updating HTML elements using JavaScript
+
+Building a Counter App using DOM methods
+
+Implementing an Image Resize tool with DOM and CSS manipulation
+
+These topics helped me understand how JavaScript connects logic with visual elements on a webpage.
+
+Task for the Day
+
+Build:
+
+A counter application with increment and decrement buttons
+
+An image resizer using DOM and input fields
+
+A small script using arrow functions and template literals
+
+What’s Next
+
+Next, I will learn about JavaScript Classes, Objects, Forms, Arrays (advanced), and Regular Expressions.
+------------------------------------------------------------------------------------------------------------------------------------------
