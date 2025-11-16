@@ -1,0 +1,33 @@
+JavaScript => 1 Scripting Language
+              2 Dynamically Typed
+              3 Single Thread
+              4 Oops
+              5 Virtual Dom
+              6 Robust in Nature
+              7 Event Driven
+              8 Platform Independent
+              9 Functional and Procedural
+             10 Server and Client Side 
+
+    Variables => Primitive ->  
+                 let
+                 var
+                 const
+                 symbol
+                 Undefined
+                 null
+                 BigInt
+                 Boolean
+                 number
+                 string  
+    Operators => Arithmatic
+                 Relational/Comparision
+                 Logical
+                 Bitwise
+                 Assignment
+                 TypeOf
+                 Ternary
+                 Unary
+                 nullish Coalsecing ??
+    Control Statement => 1. Condition {if, if else, if else if, switch}
+                         2. Looping {for, while, do while, for in, for of}
