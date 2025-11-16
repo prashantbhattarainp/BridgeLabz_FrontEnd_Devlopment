@@ -204,8 +204,6 @@ If–else and switch statements
 
 A small program using Math methods (like Math.floor, Math.random, etc.)
 
-What’s Next
-
 Next, I will learn more about JavaScript operations, including Scope, Events, Strings, Arrays, Booleans, and Conditions.
 ------------------------------------------------------------------------------------------------------------------------------------------
 Day 9 — JavaScript Scope, Events, Strings & Arrays
@@ -240,8 +238,6 @@ A simple form with event handling
 A string manipulation program (e.g., reversing a string or counting characters)
 
 An array-based project (e.g., managing a list of items)
-
-What’s Next
 
 Next, I will dive into JavaScript ES features, including switch, loops, functions, and arrow functions.
 ------------------------------------------------------------------------------------------------------------------------------------------
@@ -278,7 +274,5 @@ An image resizer using DOM and input fields
 
 A small script using arrow functions and template literals
 
-What’s Next
-
 Next, I will learn about JavaScript Classes, Objects, Forms, Arrays (advanced), and Regular Expressions.
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
