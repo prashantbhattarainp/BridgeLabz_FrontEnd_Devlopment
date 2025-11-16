@@ -171,7 +171,7 @@ Next, I will revise CSS and explore more Bootstrap components such as carousel, 
 
 Day 8 — Introduction to JavaScript Basics
 
-Date: 07/11/2025
+Date: 10/11/2025
 Topic: JavaScript Types, Operators, Logic & Control Flow
 
 What I Learned
@@ -207,7 +207,7 @@ A small program using Math methods (like Math.floor, Math.random, etc.)
 ------------------------------------------------------------------------------------------------------------------------------------------
 Day 9 — JavaScript Scope, Events, Strings & Arrays
 
-Date: 08/11/2025
+Date: 11/11/2025
 Topic: Scope, Events, Strings, Math, Arrays & Conditions
 
 What I Learned
@@ -239,7 +239,7 @@ A string manipulation program (e.g., reversing a string or counting characters)
 ------------------------------------------------------------------------------------------------------------------------------------------
 Day 10 — JavaScript ES Features & DOM Manipulation
 
-Date: 09/11/2025
+Date: 13/11/2025
 Topic: DOM, Functions, Arrow Functions & Hoisting
 
 What I Learned
