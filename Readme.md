@@ -236,7 +236,6 @@ A simple form with event handling
 
 A string manipulation program (e.g., reversing a string or counting characters)
 
-An array-based project (e.g., managing a list of items)
 ------------------------------------------------------------------------------------------------------------------------------------------
 Day 10 — JavaScript ES Features & DOM Manipulation
 
