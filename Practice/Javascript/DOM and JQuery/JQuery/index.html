@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .bg-green{
+            background-color: green;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="Box">
+      <h1>Document Object Model</h1>
+    </div>
+
+    <div class="parabox">
+      <p id="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+        consequuntur laborum molestiae ad qui vero totam veniam impedit deserunt
+        et alias dolor nihil fugit, iusto iste! Distinctio repudiandae
+        blanditiis aliquam!
+      </p>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+        officiis distinctio id possimus, similique in eveniet quidem alias
+        magnam fuga! Maxime fugiat officia quis reiciendis corrupti illo magni
+        dolorum nulla!
+      </p>
+    </div>
+
+    <div class="container">
+        <p>
+            container
+        </p>
+    </div>
+
+    <div>
+
+    </div>
+
+    <button id="btn">
+        Click Me
+    </button>
+
+    <button id="btn-fadein">
+        Fade In
+    </button>
+
+    <button id="btn-fadeout">
+        Fade Out
+    </button>
+
+     <button id="btn-fadetoggle">
+        Fade toggle
+    </button>
+
+
+
+    
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+
+
+        <script>
+        $(".Box").css({
+            color:"red"
+        })
+
+        $("#para").text("My new Para")
+
+        // $("#btn").click(function(){
+        //     alert("Clicked")
+        // })
+
+        $("#btn").click(function(){
+            $(".Box").toggle();
+        })
+
+        $("#btn-fadein").click(function(){
+            $(".Box").fadeIn();
+        })
+
+        $("#btn-fadeout").click(function(){
+            $(".Box").fadeOut();
+        })
+
+        $("#btn-fadetoggle").click(function(){
+            $(".Box").fadeToggle();
+        })
+
+
+        let count=0;
+        $(".Box").mouseover(function(){
+            count++;
+            console.log(count);
+        })
+
+        let count2=0;
+        $(".Box").mouseover(function(){
+            count2++;
+            console.log(count2);
+        })
+
+        $(".container").addClass("bg-green")
+
+
+        
+
+
+
+
+        
+
+    </script>
+
+
+
+
+  </body>
+</html>
+
+
