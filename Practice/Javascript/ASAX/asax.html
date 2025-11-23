@@ -6,16 +6,31 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <h1>Container</h1>
+        <ul id="list">
+            <li>Title</li>
+        </ul>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
 <script>
-    fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(json))
+    // fetch('https://jsonplaceholder.typicode.com/todos/2')
+    //   .then(response => response.json())
+    //   .then(json => console.log(json))
 
       async function getData(){
-        const data = await fetch ('https://jsonplaceholder.typicode.com/todos/1')
+        const data = await fetch ('https://jsonplaceholder.typicode.com/todos')
         const readData = await data.json()
-        console.log(readData)
-      }
-    </script>
+        // console.log(readData)
+        readData.forEach((x)=>{
+        let li =$(`<li> ${x.title} </li>`);
+        $("#list").append(li);
+      })   
+    }
+
+    getData()
+ </script>
 </body>
 </html>
