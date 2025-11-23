@@ -4,7 +4,7 @@ const user = {
         console.log("Inside arrow function:", this.name);
     }
 };
-
+//
 user.showName();
 
 const userFixed = {

@@ -3,7 +3,7 @@ function greetUser(name, callback) {
 
     callback();
 }
-
+//
 function showEndMessage() {
     console.log("Welcome to the course!");
 }

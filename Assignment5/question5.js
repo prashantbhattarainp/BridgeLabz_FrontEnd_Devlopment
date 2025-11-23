@@ -10,7 +10,7 @@ function Student(name, branch) {
     Person.call(this, name);
     this.branch = branch;
 }
-
+//
 Student.prototype = Object.create(Person.prototype);
 Student.prototype.constructor = Student;
 

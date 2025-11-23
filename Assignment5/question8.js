@@ -6,4 +6,4 @@ Array.prototype.myMap = function (callback) {
     return result;
 };
 
-console.log([1, 2, 3].myMap(num => num * 2));
+console.log([1, 2, 3].myMap(num => num * 2));//

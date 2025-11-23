@@ -5,7 +5,7 @@ function applyOperation(numbers, operation) {
     }
     return result;
 }
-
+//
 const double = n => n * 2;
 const square = n => n * 2;
 

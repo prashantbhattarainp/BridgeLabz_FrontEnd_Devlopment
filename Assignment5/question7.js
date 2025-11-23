@@ -5,4 +5,4 @@ function makeMultiplier(multiplier) {
 }
 
 const triple = makeMultiplier(3);
-console.log(triple(5));
+console.log(triple(5));//

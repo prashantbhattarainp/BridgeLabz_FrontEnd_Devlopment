@@ -6,7 +6,7 @@ function Car(brand, model) {
 Car.prototype.getDetails = function () {
     console.log(`Brand: ${this.brand}, Model: ${this.model}`);
 };
-
+//
 const car1 = new Car("Toyota", "Fortuner");
 const car2 = new Car("Honda", "City");
 

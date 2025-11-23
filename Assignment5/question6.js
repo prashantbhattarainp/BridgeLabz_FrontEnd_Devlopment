@@ -8,7 +8,7 @@ Person.prototype.showName = function () {
 function Faculty(name, department) {
     Person.call(this, name);
     this.department = department;
-}
+}//
 Faculty.prototype = Object.create(Person.prototype);
 Faculty.prototype.constructor = Faculty;
 Faculty.prototype.showDepartment = function () {
