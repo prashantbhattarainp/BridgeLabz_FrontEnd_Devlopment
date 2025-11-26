@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Product Highlight</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .product {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #333;
+            width: 150px;
+        }
+
+        .highlight {
+            background: yellow;
+        }
+
+        .selected {
+            border: 2px solid red;
+        }
+
+        .discount {
+            background: #c8f7c5;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="products">
+        <div class="product" data-stock="10">Laptop <span class="fav">❤️</span></div>
+        <div class="product" data-stock="0" discount="yes">Mobile <span class="fav">❤️</span></div>
+        <div class="product" data-stock="2">Tablet <span class="fav">❤️</span></div>
+        <div class="product" data-stock="5" discount="yes">Shoes <span class="fav">❤️</span></div>
+        <div class="product" data-stock="0">Headphones <span class="fav">❤️</span></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

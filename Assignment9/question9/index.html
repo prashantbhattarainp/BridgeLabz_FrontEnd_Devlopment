@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multi jQuery</title>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+      var jq1 = $.noConflict(true);
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+      var jq2 = $.noConflict(true);
+  </script>
+</head>
+<body>
+
+<div id="carousel">Slide 1</div>
+<button id="notify">Show Notification</button>
+<div id="modal" style="display:none;">New Notification</div>
+
+<script src="script.js"></script>
+</body>
+</html>
