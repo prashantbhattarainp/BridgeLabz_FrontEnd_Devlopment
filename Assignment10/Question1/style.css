@@ -1,0 +1,16 @@
+#loading {
+  display: none;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.product img {
+  width: 70px;
+  margin-right: 15px;
+}

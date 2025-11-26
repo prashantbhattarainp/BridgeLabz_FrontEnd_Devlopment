@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Complete Assignment", "priority": "High", "completed": false },
+    { "id": 2, "title": "Clean Desk", "priority": "Low", "completed": false },
+    { "id": 3, "title": "Pay Electricity Bill", "priority": "Medium", "completed": true },
+    { "id": 4, "title": "Visit Gym", "priority": "High", "completed": false },
+    { "id": 5, "title": "Buy Groceries", "priority": "Low", "completed": true }
+  ]
+}
