@@ -345,9 +345,6 @@ Display the submitted form data directly on the webpage using DOM manipulation
 
 Ensure no alerts are used — the output must appear neatly inside the HTML structure
 
-What’s Next
-
-In the upcoming session, I will begin learning AJAX and jQuery, including jQuery syntax, selectors, event handling, and DOM manipulation to simplify JavaScript tasks.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
