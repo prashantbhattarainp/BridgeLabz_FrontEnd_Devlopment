@@ -272,3 +272,168 @@ A small script using arrow functions and template literals
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
+
+Date: 15/11/2025
+Topic: JavaScript Classes, Objects, Functions Recap & Responsive Sidebar Menu
+
+What I Learned
+
+Today’s session helped me deepen my understanding of JavaScript structure and modern coding techniques. I learned:
+
+How JavaScript Classes work and how to create objects using class constructors
+
+The concept of Objects, properties, and methods
+
+A quick revision of Hoisting and the different types of Functions
+
+How these concepts come together when writing clean, modern JavaScript code
+
+Along with JavaScript, I also practiced frontend skills:
+
+Creating a hamburger icon using CSS and media queries
+
+Building a responsive sidebar menu that appears on smaller screens
+
+This session strengthened both my JavaScript fundamentals and my responsive design skills.
+
+Task for the Day
+
+Build:
+
+A hamburger menu using media queries
+
+A responsive sidebar menu that toggles based on screen size
+
+In the next session, I will begin learning about Forms and JavaScript Regular Expressions (RegExp) to understand how to handle user input and apply validation techniques effectively.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Date: 18/11/2025
+Topic: Objects, Forms, RegExp, Functions, OOP, Event Loop & Async JS
+
+What I Learned
+
+Today’s session covered several important JavaScript concepts that strengthened both my programming logic and understanding of how JavaScript works behind the scenes:
+
+JavaScript Objects and how they store structured data
+
+Forms and how to capture user input
+
+Regular Expressions (RegExp) for form validation
+
+Revision of Functions, including basic functions, constructor functions, prototypes, and OOP concepts
+
+Introduction to asynchronous JavaScript, including:
+
+Event Loop
+
+Callbacks
+
+Promises
+
+Async/Await
+
+These topics helped me understand how JavaScript handles data, validates input, and manages asynchronous operations effectively.
+
+Task for the Day
+
+Create:
+
+A form that collects user data
+
+Display the submitted form data directly on the webpage using DOM manipulation
+
+Ensure no alerts are used — the output must appear neatly inside the HTML structure
+
+What’s Next
+
+In the upcoming session, I will begin learning AJAX and jQuery, including jQuery syntax, selectors, event handling, and DOM manipulation to simplify JavaScript tasks.
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Date: 20/11/2025
+Topic: AJAX, jQuery Basics, Selectors, Event Handling & Fetch API
+
+What I Learned
+
+Today’s session introduced me to AJAX and jQuery, helping me understand how to make web pages more interactive and dynamic. I learned:
+
+jQuery syntax and how it simplifies JavaScript code
+
+jQuery selectors, event handling, and DOM manipulation
+
+How AJAX works for asynchronous communication
+
+Introduction to the Fetch API
+
+How to fetch data from an external API and display the results dynamically on a webpage
+
+These concepts gave me a strong foundation in handling real-time data and building interactive user interfaces.
+
+Task for the Day
+
+Use the Fetch API to retrieve data from an API endpoint
+
+Display the fetched data directly on the webpage using DOM manipulation
+
+
+In the next session, I will explore API endpoints in more detail and begin my introduction to React, moving further into modern frontend development.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Date: 22/11/2025
+Topic: Virtual DOM, Components, Functional Components, Props & React Router Basics
+
+What I Learned
+
+In today’s session, I was introduced to React and its core concepts that shape modern frontend development. I learned:
+
+The idea of the Virtual DOM and how React updates UI efficiently
+
+Components and the difference between functional and class-based components
+
+How to create Functional Components and reuse them across the application
+
+Passing data using Props, enabling communication between components
+
+A basic introduction to React Router DOM for handling navigation between pages
+
+These topics helped me understand how React structures applications using component-based architecture.
+
+Task for the Day
+
+Complete practice exercises based on components and props
+
+Revise all concepts discussed in today’s session
+
+In the upcoming session, I will continue with a full React overview, focusing on Hooks, and then begin working on a Mini Project: Student Management System.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Date: 24/11/2025
+Topic: React Forms, State Handling, JSON Server, API Endpoints & HTTP Methods
+
+What I Learned
+
+In today’s session, I learned how to work with forms in React and interact with backend data using JSON Server. Key topics covered were:
+
+Handling form inputs in React using state
+
+Updating and managing component state based on user input
+
+Setting up and using JSON Server as a mock backend
+
+Understanding API endpoints and how GET, POST, PUT, and DELETE requests work
+
+Connecting React with JSON Server to send and receive data
+
+These topics helped me understand how frontend and backend interact in a real-world application flow.
+
+Task for the Day
+
+Perform GET and POST operations using JSON Server
+
+Display the retrieved data in the React application using state and JSX
+
+
+In the upcoming session, I will revise all previously learned concepts to strengthen my understanding before moving further into advanced React topics.
